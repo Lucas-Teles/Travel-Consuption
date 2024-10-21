@@ -9,98 +9,100 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textCabecalho"
+        android:id="@+id/text_Header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:gravity="center"
-        android:text="@string/textCabecalho"
+        android:text="@string/text_Header"
         android:textColor="@color/red"
         android:textSize="32sp" />
 
     <EditText
-        android:id="@+id/editDistance"
+        android:id="@+id/edit_Distance"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
-        android:hint="@string/editDistance"
-        android:inputType="number" />
-
-    <TextView
-        android:id="@+id/totalKm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="@string/totalKm"
-        android:textSize="16sp" />
-
-    <EditText
-        android:id="@+id/editPrice"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
-        android:hint="@string/editPrice"
+        android:hint="@string/edit_Distance"
         android:inputType="numberDecimal" />
 
     <TextView
-        android:id="@+id/textPriceLiter"
+        android:id="@+id/text_total_Km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/textPriceLiter"
+        android:text="@string/text_total_Km"
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/editAutonomy"
+        android:id="@+id/edit_Price"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="32dp"
-        android:hint="@string/editAutonomy"
-        android:inputType="number" />
+        android:hint="@string/edit_Price"
+        android:inputType="numberDecimal" />
 
     <TextView
-        android:id="@+id/textAutonomy"
+        android:id="@+id/text_Price_Liter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/textAutonomy"
+        android:text="@string/text_Price_Liter"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edit_Autonomy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/edit_Autonomy"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/text_Autonomy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/text_Autonomy"
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/textAns"
+        android:id="@+id/text_Ans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="64dp"
         android:gravity="center"
-        android:text="@string/textAns"
+        android:text="@string/text_Ans"
+        android:textAllCaps="true"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/labelRes"
+        android:id="@+id/label_Res"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="@string/labelRes"
+        android:text="@string/label_Res"
         android:textColor="@color/blue"
         android:textSize="35sp" />
 
     <Button
-        android:id="@+id/buttonCalculate"
-        android:text="@string/buttonCalculate"
-        android:backgroundTint="@color/greenButton"
-        android:textAllCaps="true"
-        android:padding="12dp"
-        android:textSize="18sp"
+        android:id="@+id/button_Calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="128dp"
+        android:backgroundTint="@color/greenButton"
+        android:padding="12dp"
+        android:text="@string/button_Calculate"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
 
 
 </LinearLayout>
