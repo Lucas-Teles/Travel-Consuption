@@ -5,17 +5,102 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textCabecalho"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="32dp"
-        android:text="Testando aplicação"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/textCabecalho"
+        android:textColor="@color/red"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/editDistance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/editDistance"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/totalKm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/totalKm"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/editPrice"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textPriceLiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/textPriceLiter"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editAutonomy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:hint="@string/editAutonomy"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textAutonomy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/textAutonomy"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="@string/textAns"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/labelRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/labelRes"
+        android:textColor="@color/blue"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:text="@string/buttonCalculate"
+        android:backgroundTint="@color/greenButton"
+        android:textAllCaps="true"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
 
 </LinearLayout>
